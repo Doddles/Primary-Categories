@@ -10,43 +10,43 @@ You will also see the Primary Category appear in a new Admin Column on the `All 
 
 You can access the primary within the WordPress loop in a number of ways:
 
-###Display the Primary Category (with a link)
+### Display the Primary Category (with a link)
 ```
 <?php primary_category(); ?>
 ```
 output: `<a class="primary-category-link" href="[CATEGORY LINK]"><strong>[CATEGORY NAME]</strong></a>`
 
-###Get the Primary Category (with a link)
+### Get the Primary Category (with a link)
 ```
 <?php get_primary_category(); ?>
 ```
 returned: `<a class="primary-category-link" href="[CATEGORY LINK]"><strong>[CATEGORY NAME]</strong></a>`
 
-###Display the Primary Category Name
+### Display the Primary Category Name
 ```
 <?php primary_category_name(); ?>
 ```
 output: `[CATEGORY NAME]`
 
-###Get the Primary Category Name
+### Get the Primary Category Name
 ```
 <?php get_primary_category_name(); ?>
 ```
 returned: `[CATEGORY NAME]`
 
-###Display the Primary Category Link
+### Display the Primary Category Link
 ```
 <?php primary_category_link(); ?>
 ```
 output: `[CATEGORY LINK]`
 
-###Get the Primary Category Link
+### Get the Primary Category Link
 ```
 <?php get_primary_category_link(); ?>
 ```
 returned: `[CATEGORY LINK]`
 
-###Get the Primary Category Object
+### Get the Primary Category Object
 ```
 <?php get_primary_category_name(); ?>
 ```
