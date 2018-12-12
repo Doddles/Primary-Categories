@@ -1,0 +1,24 @@
+/**
+ * PrimaryCategory - Admin Styles
+ */
+
+.hidden {
+	visibility: hidden;
+}
+
+#primary-category {
+	width: 100%;
+}
+
+#primary-category-container p {
+	margin: 12px 0;
+}
+
+#primary-category-container p span {
+	font-weight: 600;
+}
+
+#primary-category-meta-box {
+	display: none;
+}
+

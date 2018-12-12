@@ -1,0 +1,26 @@
+{
+	"name": "10up/primary-category",
+	"description": "Primary Category",
+	"authors": [
+		{
+			"name": "Doodles",
+			"email": "doodles@example.com"
+		}
+	],
+	"require": {
+		"php": ">=7.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"PrimaryCategory\\": "includes/classes/"
+		}
+	},
+	"require-dev": {
+		"10up/wp_mock": "dev-dev",
+		"10up/phpcs-composer": "dev-master"
+	},
+	"scripts": {
+		"lint": "phpcs .",
+		"lint-fix": "phpcbf ."
+	}
+}
